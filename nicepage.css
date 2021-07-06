@@ -33687,50 +33687,33 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 86px;
-}
-
-.u-header .u-social-icons-1 {
-  white-space: nowrap;
-  height: 27px;
-  min-height: 16px;
-  width: 101px;
-  min-width: 68px;
-  margin: 30px auto 0 0;
-}
-
-.u-header .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
-}
-
-.u-header .u-icon-2 {
-  color: rgb(85, 172, 238) !important;
-}
-
-.u-header .u-icon-3 {
-  color: rgb(197, 54, 164) !important;
+  min-height: 87px;
 }
 
 .u-header .u-search-1 {
   width: 250px;
   min-height: 38px;
-  margin: -32px 0 24px auto;
+  margin: 24px 0 0 auto;
+}
+
+.u-header .u-image-1 {
+  margin: -61px auto 0 0;
+}
+
+.u-header .u-logo-image-1 {
+  max-width: 127px;
+  max-height: 127px;
+}
+
+.u-header .u-text-1 {
+  margin: -67px 489px 18px 140px;
 }
 .u-header .u-sheet-2 {
   min-height: 53px;
 }
 
-.u-header .u-image-1 {
-  margin: 0 auto 0 0;
-}
-
-.u-header .u-logo-image-1 {
-  max-width: 80px;
-  max-height: 80px;
-}
-
 .u-header .u-menu-1 {
-  margin: -44px 0 0 auto;
+  margin: 9px 0 9px auto;
 }
 
 .u-header .u-nav-1 {
@@ -33744,40 +33727,37 @@ a.u-link.u-text-hover-grey-90:hover {
   letter-spacing: 0px;
   font-weight: 700;
 }
-
-.u-header .u-text-1 {
-  margin: -30px auto 14px 90px;
-}
 @media (max-width: 1199px) {
-  .u-header .u-search-1 {
-    height: auto;
-    margin-top: -32px;
-  }
-}
-@media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    width: 80px;
-    height: 53px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -44px;
-  }
-
   .u-header .u-text-1 {
-    margin-top: -30px;
+    margin-top: -67px;
+    margin-right: 389px;
+    margin-left: 40px;
   }
 }
 
+@media (max-width: 991px) {
+  .u-header .u-text-1 {
+    margin-right: 209px;
+    margin-left: 0;
+  }
+}
 
-
+@media (max-width: 767px) {
+  .u-header .u-text-1 {
+    margin-right: 29px;
+  }
+}
 
 @media (max-width: 575px) {
   .u-header .u-search-1 {
-    margin-top: 20px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-header .u-text-1 {
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 }
 
